@@ -14,7 +14,7 @@
 .h21 {
   text-shadow: #000 5px 5px 0;
   font-size: 4em;
-  border-right-color: #5b9eae;
+  border-right-color: rgba(91,158,174,0);
   border-right-style: double;
   width: 99%;
   border-radius: 0
@@ -25,9 +25,14 @@
 }
 .hhvv {
   top: 0;
-  bottom: 10px;
+  bottom: 70px;
   position: relative;
-  margin-top: 280px
+  margin-top: 500px;
+  margin-bottom: 100px
+}
+.bbx,
+.ghg {
+  position: fixed
 }
 .x20 {
   background-image: url("../images/Rail-Gate-Styles-collection.png");
@@ -54,7 +59,7 @@
 .hh2 {
   box-shadow: #2039af 0 0 0 0;
   font-size: 4.5em;
-  text-shadow: #bcc1cf 2px 2px 0;
+  text-shadow: #b1b7cb 3px 3px 0;
   color: #0a1b93;
   font-weight: 700;
   width: 90%
@@ -80,10 +85,9 @@
   color: #131b1d
 }
 .bbx {
-  position: absolute;
   top: 0;
-  bottom: 1em;
-  right: 450px;
+  bottom: 0;
+  right: 300px;
   margin-right: 4em;
   margin-top: 1em
 }
@@ -98,10 +102,6 @@
   border-right-color: #77d3ea;
   box-shadow: #2d3d88 0 0 0 0
 }
-.imglog,
-.xtt {
-  margin-top: -20px
-}
 .xxbg {
   background-color: #d3d3dd
 }
@@ -115,18 +115,17 @@
 .py12x {
   margin-bottom: -50px
 }
+.xtt {
+  margin-top: -20px
+}
 .text-xl.xxl {
   color: #111f22;
   font-size: 33px
 }
 .ghg {
-  background-image: url("../images/Screenshot-2023-09-21-at-8-53-59-pm-png-1695293733168.webp");
-  position: fixed
+  background-image: url("../images/Screenshot-2023-09-21-at-8-53-59-pm-png-1695293733168.webp")
 }
 .xvvv {
   height: 50px
-}
-.imglog {
-  top: -20px
 }
 
