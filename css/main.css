@@ -36,7 +36,7 @@
 }
 .x20 {
   background-image: url("../images/Rail-Gate-Styles-collection.png");
-  background-repeat: round;
+  background-repeat: repeat;
   box-shadow: #000 5px 5px 0 0 inset
 }
 .btns {
@@ -59,8 +59,8 @@
 .hh2 {
   box-shadow: #2039af 0 0 0 0;
   font-size: 4.5em;
-  text-shadow: #b1b7cb 3px 3px 0;
-  color: #0a1b93;
+  text-shadow: #cdced1 2px 1px 0;
+  color: #101a65;
   font-weight: 700;
   width: 90%
 }
@@ -127,5 +127,28 @@
 }
 .xvvv {
   height: 50px
+}
+.p244 {
+  background-color: #3f94a9
+}
+.gwwww {
+  color: #4e6064
+}
+.hhhhh {
+  color: #4e5e62
+}
+.hghghg {
+  color: #445256
+}
+.jghjhkhj {
+  color: #43555a
+}
+.butt {
+  background-color: #1830b5;
+  cursor: crosshair
+}
+.colk {
+  color: #9195bd;
+  font-weight: 400
 }
 
