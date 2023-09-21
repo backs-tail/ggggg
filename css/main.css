@@ -113,7 +113,7 @@
 }
 .x12mb {
   font-size: 5em;
-  width: 5em
+  width: 6em
 }
 .py12x {
   margin-bottom: -50px
@@ -154,5 +154,14 @@
 .xxl {
   width: 100%;
   font-size: 4em
+}
+.8i {
+  box-shadow: #533737 0 0 99px 99% inset;
+  text-shadow: #de7777 0 0 99px;
+  filter: drop-shadow(5px 1px 1px #000000)
+}
+.hhhkk {
+  width: 100%;
+  max-width: 500px
 }
 
