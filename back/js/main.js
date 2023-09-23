@@ -1,14 +1,14 @@
 // Burger menus
 document.addEventListener('DOMContentLoaded', function() {
     // open
-    const burger = document.querySelectorAll('.navbar-menu-open');
-    const menu = document.querySelectorAll('.navbar-side');
+    const burger = document.querySelectorAll('.navbar-burger');
+    const menu = document.querySelectorAll('.navbar-menu');
 
     if (burger.length && menu.length) {
         for (var i = 0; i < burger.length; i++) {
             burger[i].addEventListener('click', function() {
                 for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('is-hidden');
+                    menu[j].classList.toggle('d-none');
                 }
             });
         }
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (var i = 0; i < close.length; i++) {
             close[i].addEventListener('click', function() {
                 for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('is-hidden');
+                    menu[j].classList.toggle('d-none');
                 }
             });
         }
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (var i = 0; i < backdrop.length; i++) {
             backdrop[i].addEventListener('click', function() {
                 for (var j = 0; j < menu.length; j++) {
-                    menu[j].classList.toggle('is-hidden');
+                    menu[j].classList.toggle('d-none');
                 }
             });
         }
