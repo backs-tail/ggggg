@@ -1,3 +1,10 @@
+.col2h,
+.g {
+  max-width: 800px
+}
+.g {
+  width: 800px
+}
 .s22 {
   color: #0cf;
   font-size: 1em
@@ -13,5 +20,9 @@
 }
 .img2 {
   margin-top: 10px
+}
+.ppy44 {
+  max-height: 600px;
+  height: 800px
 }
 
